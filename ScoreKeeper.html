@@ -2,16 +2,19 @@
 <html>
 <head>
 	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
-	
-	<h1><span id="p1display">0</span> to <span id="p2display">0</span></h1>
-	<p>Playing to <span id="limit">5</span></p>
-	<input type="number" name="">
-	<button id="p1">Player 1</button>
-	<button id="p2">Player 2</button>
-	<button id="reset">Reset</button>
-
+	<p id="head">Score Keeper</p>
+	<div id="container">
+		<h1><span id="head1">Player 1</span><span id="p1display">0</span> to <span id="p2display">0</span><span id="head2">Player 2</span></h1>
+		<p>Playing to <span id="limit">5</span></p>
+		<input type="number" name="" placeholder="Wining Score"><br>
+		<button id="p1">Player 1</button>
+		<button id="p2">Player 2</button>
+		<button id="reset">Reset</button>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
